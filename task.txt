@@ -1,0 +1,7 @@
+1) Category listda delete va update qiladigan modal qo`shing +
+2) Product create bo`limida rasmlar uchun multiple inputga design berish +
+3) Product create bo`limida videolar qo`shish uchun multiple input yarating +
+4) Product detailda product o`chirish uchun modal oyna yarating +
+5) Product updateda product img va videolarni for yordamida display qiling va 
+rasm yonida o`chirish uchun link tursin, uni bosganda o`sha rasm o`chib ketsin +
+6) Product updateda productlarning rasm va videolari uchun multiple input hosil qiling +

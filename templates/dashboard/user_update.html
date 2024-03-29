@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update User</title>
+</head>
+<body>
+    <h1>Update User</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" value="{{ user.username }}" required><br>
+        <label for="avatar">Avatar:</label><br>
+        <input type="file" id="avatar" name="avatar"><br><br>
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address" value="{{ user.address }}"><br>
+        <label for="phone">Phone:</label><br>
+        <input type="text" id="phone" name="phone" value="{{ user.phone }}"><br>
+        <label for="zip_code">Zip Code:</label><br>
+        <input type="number" id="zip_code" name="zip_code" value="{{ user.zip_code }}"><br><br>
+        <button type="submit">Update</button>
+    </form>
+</body>
+</html>
